@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Eric Cokasta - Portofolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="wrap top">
+  <div class="logo">eric.dev 🐣</div>
+  <button class="theme" id="themeBtn" aria-label="Ganti mode terang atau gelap">🌙</button>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <h1><span>Halo, aku</span><span>Eric Cokasta!</span></h1>
+      <p class="sub">Lulusan S1 Bina Nusantara University yang suka bikin gadget pintar, aplikasi, dan database. Kalau ada banjir, sensorku yang lapor duluan 🌊</p>
+      <div class="btns">
+        <a class="btn pink" href="#proyek">Lihat proyekku</a>
+        <a class="btn mint" href="#kontak">Ajak ngobrol</a>
+      </div>
+    </div>
+    <div class="mascot" aria-hidden="true">
+      <div class="bubble" id="bubble">bip bop! 🤖</div>
+      <svg viewBox="0 0 300 300" class="bob" id="bot" style="cursor:pointer">
+        <line x1="150" y1="40" x2="150" y2="68" stroke="#23233B" stroke-width="6" stroke-linecap="round"/>
+        <circle cx="150" cy="34" r="12" fill="#FF8FB1" stroke="#23233B" stroke-width="5"/>
+        <rect x="55" y="68" width="190" height="150" rx="40" fill="#FFD93D" stroke="#23233B" stroke-width="6"/>
+        <circle cx="112" cy="132" r="22" fill="#fff" stroke="#23233B" stroke-width="5"/>
+        <circle cx="188" cy="132" r="22" fill="#fff" stroke="#23233B" stroke-width="5"/>
+        <circle id="eyeL" cx="112" cy="132" r="9" fill="#23233B"/>
+        <circle id="eyeR" cx="188" cy="132" r="9" fill="#23233B"/>
+        <path d="M118 180 Q150 205 182 180" fill="none" stroke="#23233B" stroke-width="6" stroke-linecap="round"/>
+        <circle cx="82" cy="168" r="11" fill="#FF8FB1" opacity=".8"/>
+        <circle cx="218" cy="168" r="11" fill="#FF8FB1" opacity=".8"/>
+        <rect x="95" y="226" width="110" height="46" rx="14" fill="#3DA5F5" stroke="#23233B" stroke-width="6"/>
+        <text x="150" y="257" text-anchor="middle" font-family="Fredoka,sans-serif" font-weight="700" font-size="20" fill="#fff">ESP32</text>
+      </svg>
+    </div>
+  </div>
+  <svg class="waves" viewBox="0 0 1200 50" preserveAspectRatio="none" aria-hidden="true"><path d="M0 25 Q50 0 100 25 T200 25 T300 25 T400 25 T500 25 T600 25 T700 25 T800 25 T900 25 T1000 25 T1100 25 T1200 25 V50 H0Z" fill="#BDE7FF" stroke="#23233B" stroke-width="3"/></svg>
+</section>
+
+<section class="about" id="tentang">
+  <div class="wrap">
+    <h2>Tentang Saya</h2>
+    <div class="card" style="margin-bottom:24px;display:flex;gap:18px;align-items:flex-start">
+      <span style="font-size:56px;line-height:1" aria-hidden="true">👋</span>
+      <div>
+        <h3 style="margin-bottom:8px">Halo, aku Eric!</h3>
+        <p style="margin:0 0 10px">Aku lulusan S1 Bina Nusantara University yang senang mengutak-atik teknologi, terutama IoT, pemrograman, dan data. Dunia kerja sudah kukenal lewat internship setahun di Kode Kiddo, lalu sebagai Admin Purchasing dan IT Staff di CV Pasir Mas.</p>
+        <p style="margin:0">Di luar layar, aku suka berbuat baik: menanam pohon, membantu mengajar anak-anak, dan membantu di panti asuhan. Buatku, teknologi paling seru kalau bisa berguna untuk orang lain. 🌱</p>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="card">
+        <div class="edu"><span class="ico">🎓</span>
+          <div><h3>S1 Bina Nusantara University</h3><p style="margin:4px 0 0;color:var(--muted)">Pendidikan terakhir</p></div>
+        </div>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom:12px">Jurus andalanku</h3>
+        <div class="chips">
+          <span class="chip">IoT</span><span class="chip">Python</span><span class="chip">HTML</span>
+          <span class="chip">JavaScript</span><span class="chip">Excel</span><span class="chip">SQL</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="proyek">
+  <div class="wrap">
+    <h2>Proyek</h2>
+    <div class="proj">
+      <article class="card">
+        <span class="emoji">🌊</span>
+        <h3>Pendeteksi Banjir</h3>
+        <p>Sistem IoT pendeteksi banjir memakai ESP32 dan sensor JSN-SR04, dipantau lewat Android atau React Native.</p>
+        <div><span class="tag">IoT</span><span class="tag">ESP32</span><span class="tag">JSN-SR04</span><span class="tag">React Native</span></div>
+      </article>
+      <article class="card">
+        <span class="emoji">🚗</span>
+        <h3>Aplikasi Rental Mobil</h3>
+        <p>Aplikasi untuk mengelola penyewaan mobil dengan mudah, dari pilihan kendaraan sampai pemesanan.</p>
+        <div><span class="tag">Aplikasi</span></div>
+      </article>
+      <article class="card">
+        <span class="emoji">🏨</span>
+        <h3>Database Perhotelan</h3>
+        <p>Rancangan database untuk sebuah hotel, supaya data tamu, kamar, dan reservasi tertata rapi.</p>
+        <div><span class="tag">SQL</span><span class="tag">Database</span></div>
+      </article>
+    </div>
+
+    <div class="card toy">
+      <div class="tank" aria-hidden="true">
+        <div class="duck" id="duck">🦆</div>
+        <div class="fill" id="fill"></div>
+      </div>
+      <div>
+        <div class="status" id="status">Aman, bebek santai 😎</div>
+        <p style="margin:6px 0 10px">Coba simulasi sensor banjirku: geser untuk menaikkan air.</p>
+        <input type="range" id="level" min="0" max="100" value="20" aria-label="Tinggi air">
+        <small id="cm">Tinggi air: 20%</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--mint);border-block:3px solid var(--line)" id="pengalaman">
+  <div class="wrap">
+    <h2>Pengalaman Kerja</h2>
+    <div class="tl">
+      <div class="item card">
+        <h3>Internship di Kode Kiddo</h3>
+        <div class="when">Februari 2024 - Februari 2025 (1 tahun)</div>
+      </div>
+      <div class="item card">
+        <h3>Admin Purchasing & IT Staff</h3>
+        <p style="margin:4px 0 0;color:var(--muted)">CV Pasir Mas</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sosial">
+  <div class="wrap">
+    <h2>Kegiatan Sosial</h2>
+    <div class="social">
+      <div class="sticker"><span class="e">🌳</span><h3>Menanam Pohon</h3><p>Biar bumi tetap adem.</p></div>
+      <div class="sticker"><span class="e">📚</span><h3>Mengajar Anak-anak</h3><p>Membantu mengajar di sekolah.</p></div>
+      <div class="sticker"><span class="e">🧸</span><h3>Panti Asuhan</h3><p>Membantu di panti asuhan.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="kontak">
+  <div class="wrap">
+    <div class="card">
+      <h2 style="justify-self:center">Yuk, kenalan!</h2>
+      <p style="margin:0;font-size:19px">Punya ide atau mau ngobrol soal proyek? Kirim pesan saja.</p>
+      <div class="links">
+        <a class="btn" href="tel:+6282283861790">📞 082283861790</a>
+        <a class="btn" href="mailto:ericcokasta13@gmail.com">✉️ ericcokasta13@gmail.com</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>Dibuat dengan semangat dan segelas kopi ☕ oleh Eric Cokasta</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
